@@ -11,19 +11,12 @@ weeklyTotal = dailyHours * 5
 
 workYearTotal = dailyHours * 252
 
-print("Your Employee Number: ")
+print("Your Employee Number: " , employeeNumber)
 
-print(employeeNumber)
+print("Your daily hours: " , dailyHours)
 
-print("Your daily hours: ")
+print("Your Weekly Total: " , weeklyTotal)
 
-print(dailyHours)
+print("Your Work Year Total: " , workYearTotal)
 
-print("Your Weekly Total: ")
-
-print(weeklyTotal)
-
-print("Your Work Year Total: ")
-
-print(workYearTotal)
 
