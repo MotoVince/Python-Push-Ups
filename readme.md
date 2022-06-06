@@ -12,7 +12,7 @@ My other focus is get to know GIT.
 
 At this point I'm pretty much still a complete noob when it come to using this powerful resources. 
 
-But by the end of this I hope to be able to push and track versions of my code as well as showcasing my skills for possibly future employers. 
+But by the end of this I hope to be able to push and track versions of my code, as well as showcasing my skills for possible future employers. 
  
 Thanks for stopping by, 
 Vince.

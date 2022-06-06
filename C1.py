@@ -19,5 +19,8 @@ print("Your Weekly Total: " , weeklyTotal)
 
 print("Your Work Year Total: " , workYearTotal)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f6e9bc1538c66cec38ded61994e49adb34ba5492
 
