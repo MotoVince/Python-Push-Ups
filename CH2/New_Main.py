@@ -1,3 +1,4 @@
+#Declarations
 balance = 0
 overdrawn = 0
 fee = 0
@@ -9,12 +10,11 @@ fee_prompt = "Overdraft Fee for this Account is: "
 def overdraft_fee(overdrawn, balance):
   return (balance * 0.01) + 5 * overdrawn
   
-
 #Housekeeping:
 def housekeeping():
   print(balance_prompt)
-  balance = int(input())
-  return balance 
+  new_balance = int(input())
+  return new_balance 
 
 #End of job:
 def end_of_job():
@@ -22,10 +22,10 @@ def end_of_job():
 
 #Main:
 
-housekeeping()
-while balance >= 0:
+balance = housekeeping()
+while balance > 0:
   fee = overdraft_fee(int(input(overdraft_prompt)), balance)
   print(fee_prompt, fee)
-  housekeeping()
+  balance = housekeeping()
 else:
   end_of_job()
